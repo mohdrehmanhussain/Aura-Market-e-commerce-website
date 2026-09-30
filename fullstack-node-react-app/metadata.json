@@ -1,0 +1,6 @@
+{
+  "name": "Aura Curated Market",
+  "description": "Full-stack modern e-commerce shopping platform with SQLite database, REST API, multi-step checkout, order tracking, admin analytics, and downloadable college project ZIP.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

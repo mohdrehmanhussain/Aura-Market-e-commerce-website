@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #FBFBF9;
+    --bg-surface: #F4F3EF;
+    --bg-elevated: #FFFFFF;
+    --text-primary: #141413;
+    --text-secondary: #575653;
+    --text-muted: #85847F;
+    --border-hairline: rgba(20, 20, 19, 0.08);
+    --accent-primary: #141413;
+    --accent-highlight: #9A3412;
+  }
+
+  .dark {
+    --bg-canvas: #121214;
+    --bg-surface: #1A1A1E;
+    --bg-elevated: #222227;
+    --text-primary: #F5F5F3;
+    --text-secondary: #A6A6A2;
+    --text-muted: #71716D;
+    --border-hairline: rgba(245, 245, 243, 0.09);
+    --accent-primary: #F5F5F3;
+    --accent-highlight: #EA580C;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-canvas);
+    color: var(--text-primary);
+    transition: background-color 180ms cubic-bezier(0.16, 1, 0.3, 1), color 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  h1, h2, .font-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    text-wrap: balance;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
